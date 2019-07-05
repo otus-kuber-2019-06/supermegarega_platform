@@ -1,0 +1,2 @@
+# supermegarega_platform
+supermegarega Platform repository
