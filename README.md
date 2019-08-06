@@ -14,6 +14,7 @@ supermegarega Platform repository
 - Сoredns восстанавливается, т.к. управляется через Deployment который при развернтвании автоматитчески создает соответствующий ReplicaSet.
 
 # homework-2 Безопасность в Kubernetes.
+
 `task01`
 - Создан Service Account bob с ролью admin в рамках всего кластера.
 - Создан Service Account dave без доступа к кластеру.
