@@ -12,3 +12,21 @@ supermegarega Platform repository
 - Создан и применен манифест web-pod.yaml.
 - Проверена работа web сервера развернутого из манифеста web-pod.yaml с помощью `kubectl port-forward --address 0.0.0.0 pod/web 8000:8000`.
 - Сoredns восстанавливается, т.к. управляется через Deployment который при развернтвании автоматитчески создает соответствующий ReplicaSet.
+
+# homework-2 Безопасность в Kubernetes.
+`task01`
+- Создан Service Account bob с ролью admin в рамках всего кластера.
+- Создан Service Account dave без доступа к кластеру.
+
+`task02`
+- Создан Namespace prometheus.
+- Создан Service Account carol в Namespace prometheus.
+- Всем Service Account в Namespace prometheus дана возможность делать get, list, watch в отношении Pods всего
+кластера.
+
+`task03`
+- Создан Namespace dev.
+- Создан Service Account jane в Namespace dev.
+- Выдана роль admin пользователю jane в рамках Namespace dev.
+- Создан Service Account ken в Namespace dev.
+- Выдана роль view пользователю ken в рамках Namespace dev.
