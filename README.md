@@ -42,3 +42,10 @@ supermegarega Platform repository
 - Настроен доступ к CoreDNS.
 - Настроен Ingress контроллер ingress-nginx.
 - Настроено подключение приложение Web к Ingress.
+
+# homework-4 Volumes, Storages, StatefulSet.
+
+- Установлен kind.
+- Развернут StatefulSet c MinIO.
+- Создан Headless Service для доступа к StatefulSet.
+- Создан secret для бесзопасности StatefulSet.
