@@ -31,3 +31,9 @@ supermegarega Platform repository
 - Выдана роль admin пользователю jane в рамках Namespace dev.
 - Создан Service Account ken в Namespace dev.
 - Выдана роль view пользователю ken в рамках Namespace dev.
+
+# homework-3 Сетевое взаимодействие kubernetes.
+
+- Добавлены проверки pod-ов readinessProbe и livenessProbe.
+- Создан Deployment для обновления конфигурации pod-ов.
+- 
