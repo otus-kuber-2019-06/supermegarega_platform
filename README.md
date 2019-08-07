@@ -14,6 +14,7 @@ supermegarega Platform repository
 - Сoredns восстанавливается, т.к. управляется через Deployment который при развернтвании автоматитчески создает соответствующий ReplicaSet.
 
 # homework-2 Безопасность в Kubernetes.
+
 `task01`
 - Создан Service Account bob с ролью admin в рамках всего кластера.
 - Создан Service Account dave без доступа к кластеру.
@@ -30,3 +31,14 @@ supermegarega Platform repository
 - Выдана роль admin пользователю jane в рамках Namespace dev.
 - Создан Service Account ken в Namespace dev.
 - Выдана роль view пользователю ken в рамках Namespace dev.
+
+# homework-3 Сетевое взаимодействие kubernetes.
+
+- Добавлены проверки pod-ов readinessProbe и livenessProbe.
+- Создан Deployment для обновления конфигурации pod-ов.
+- Создан сервис ClusterIP.
+- Для kube-proxy включен режим работы IPVS.
+- Установлен MetalLb.
+- Настроен доступ к CoreDNS.
+- Настроен Ingress контроллер ingress-nginx.
+- Настроено подключение приложение Web к Ingress.
